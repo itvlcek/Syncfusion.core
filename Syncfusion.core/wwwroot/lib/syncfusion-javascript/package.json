@@ -1,0 +1,115 @@
+{
+  "_args": [
+    [
+      "syncfusion-javascript@15.4.17",
+      "C:\\Users\\LV35CZPL\\Documents\\Visual Studio 2017\\Projects\\Syncfusion.core\\Syncfusion.core"
+    ]
+  ],
+  "_from": "syncfusion-javascript@15.4.17",
+  "_id": "syncfusion-javascript@15.4.17",
+  "_inCache": true,
+  "_location": "/syncfusion-javascript",
+  "_nodeVersion": "4.4.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/syncfusion-javascript-15.4.17.tgz_1510295199622_0.04661584482528269"
+  },
+  "_npmUser": {
+    "email": "packages@syncfusion.com",
+    "name": "syncfusion-javascript"
+  },
+  "_npmVersion": "4.0.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "syncfusion-javascript",
+    "raw": "syncfusion-javascript@15.4.17",
+    "rawSpec": "15.4.17",
+    "scope": null,
+    "spec": "15.4.17",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/syncfusion-javascript/-/syncfusion-javascript-15.4.17.tgz",
+  "_shasum": "e373e9fb67918943913d00ad3a80f2d3c464bd18",
+  "_shrinkwrap": null,
+  "_spec": "syncfusion-javascript@15.4.17",
+  "_where": "C:\\Users\\LV35CZPL\\Documents\\Visual Studio 2017\\Projects\\Syncfusion.core\\Syncfusion.core",
+  "author": {
+    "name": "Syncfusion Inc"
+  },
+  "bugs": {
+    "url": "https://github.com/syncfusion/JavaScript-Widgets/issues"
+  },
+  "dependencies": {
+    "jquery": "*",
+    "jquery-validation": "*",
+    "jsrender": "*",
+    "syncfusion-ej-global": "*"
+  },
+  "description": "Npm package of Syncfusion.JavaScript.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "e373e9fb67918943913d00ad3a80f2d3c464bd18",
+    "tarball": "https://registry.npmjs.org/syncfusion-javascript/-/syncfusion-javascript-15.4.17.tgz"
+  },
+  "files": [
+    "Content/",
+    "Scripts/"
+  ],
+  "gitHead": "3f43c9532c9de9beea5b96d9de6de3668b499062",
+  "homepage": "https://github.com/syncfusion/JavaScript-Widgets#readme",
+  "installable": true,
+  "jspm": {
+    "dependencies": {
+      "jquery": "*",
+      "jquery-validation": "*",
+      "jsrender": "*",
+      "syncfusion-ej-global": "*"
+    },
+    "files": [
+      "Content",
+      "Scripts"
+    ],
+    "format": "amd",
+    "ignore": [
+      "Scripts/common/ej.unobtrusive.min.js",
+      "Scripts/common/ej.unobtrusive.min.map",
+      "Scripts/common/ej.webform.min.js",
+      "Scripts/common/ej.webform.min.map",
+      "Scripts/common/ej.widget.angular.min.js",
+      "Scripts/common/ej.widget.angular.min.map",
+      "Scripts/common/ej.widget.ko.min.js",
+      "Scripts/common/ej.widget.ko.min.map",
+      "Scripts/ej.widgets.all*.js",
+      "Scripts/ej.widgets.all.min.map",
+      "Scripts/web/ej.web.all*.js",
+      "Scripts/web/ej.web.all.min.map"
+    ],
+    "main": false,
+    "registry": "npm"
+  },
+  "keywords": [
+    "ej",
+    "essential",
+    "javascript",
+    "syncfusion"
+  ],
+  "license": "SEE LICENSE IN README.md",
+  "maintainers": [
+    {
+      "name": "syncfusion-javascript",
+      "email": "abbask@syncfusion.com"
+    }
+  ],
+  "name": "syncfusion-javascript",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syncfusion/JavaScript-Widgets.git"
+  },
+  "scripts": {},
+  "version": "15.4.17"
+}
