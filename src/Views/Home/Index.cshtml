@@ -9,20 +9,13 @@
     @*Insert any script tags for this page here*@
 }
 
-<ej-grid id="CarsGrid" allow-paging="true" allow-sorting="true" allow-filtering="true">
+<ej-grid id="SampleGrid" allow-paging="true" allow-sorting="true" allow-filtering="true">
     <e-filter-settings filter-type="Menu" />
     <e-edit-settings allow-adding="true" allow-editing="true" allow-deleting="true" show-delete-confirm-dialog="true" edit-mode="Dialog"></e-edit-settings>
     <e-toolbar-settings show-toolbar="true" toolbar-items="@(new List<string>() {"add","edit","delete","update","cancel","excelExport","wordExport","pdfExport" })"></e-toolbar-settings>
-    <e-datamanager url="/api/Cars" insert-url="api/Cars/Insert" remove-url="api/Cars/Delete" update-url="api/Cars/Update" adaptor="WebApiAdaptor"></e-datamanager>
+    <e-datamanager url="/api/Data" insert-url="api/Data/Insert" remove-url="api/Data/Delete" update-url="api/Data/Update" adaptor="WebApiAdaptor"></e-datamanager>
     <e-columns>
-        <e-column field="Id" header-text="Id" text-align="Right" width="70" is-primary-key="true" is-identity="true"></e-column>
-        <e-column field="Manufacture" header-text="Značka" width="80" edit-type="StringEdit"></e-column>
-        <e-column field="Model" header-text="Model" text-align="Left" width="75" edit-type="StringEdit"></e-column>
-        <e-column field="RegistrationNumber" header-text="SPZ" text-align="Right" width="75" edit-type="StringEdit"></e-column>
-        <e-column field="OwnerFirstName" header-text="Jméno majitele" text-align="Right" width="80" edit-type="StringEdit"></e-column>
-        <e-column field="OwnerLasttName" header-text="Příjmení majitele" width="110" edit-type="StringEdit"></e-column>
-        <e-column field="LastControl" header-text="Poslední STK" width="110" edit-type="Datepicker" format="{0:MM/dd/yyyy}"></e-column>
-        <e-column field="Note" header-text="Popznámka" width="110" edit-type="StringEdit"></e-column>
-        <e-column field="Vin" header-text="VIN" width="110" edit-type="StringEdit"></e-column>
+        <e-column field="Name" header-text="Name" text-align="Right" width="70" is-primary-key="true" is-identity="true"></e-column>
+        <e-column field="Title" header-text="Title" width="80" edit-type="StringEdit"></e-column>
     </e-columns>
 </ej-grid>
