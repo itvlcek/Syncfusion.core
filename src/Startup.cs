@@ -37,7 +37,7 @@ namespace StarterMvcTemplate
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<EmployeeService>();
-            services.AddMvc().AddJsonOptions(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver { }); ;
+            services.AddMvc().AddJsonOptions(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver { });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
