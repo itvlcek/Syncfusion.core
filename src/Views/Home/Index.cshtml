@@ -15,7 +15,7 @@
     <e-toolbar-settings show-toolbar="true" toolbar-items="@(new List<string>() {"add","edit","delete","update","cancel","excelExport","wordExport","pdfExport" })"></e-toolbar-settings>
     <e-datamanager url="/api/Data" insert-url="api/Data/Insert" remove-url="api/Data/Delete" update-url="api/Data/Update" adaptor="WebApiAdaptor"></e-datamanager>
     <e-columns>
-        <e-column field="Name" header-text="Name" text-align="Right" width="70" is-primary-key="true" is-identity="true"></e-column>
+        <e-column field="Name" header-text="Name" text-align="Right" width="70" is-primary-key="true" @*is-identity="true"*@></e-column>
         <e-column field="Title" header-text="Title" width="80" edit-type="StringEdit"></e-column>
     </e-columns>
 </ej-grid>
